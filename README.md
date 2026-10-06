@@ -1,3 +1,11 @@
+# AI Ready Standaarden & CompliancePush
+Geonovum, het Kadaster, ModelDesk B.V. en het ministerie van BZK, Directie Digitale Overheid werken samen aan het [innovatiebudget-project](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/innovatie/innovatiebudget/toekenning-innovatiebudget-2026/ AI Ready Standaarden & CompliancePush. Met dit project verbeteren we de implementatie en verhogen de adoptie van overheidsstandaarden. Dit doen we door 1) deze standaarden geschikt te maken voor AI-consumptie, zodat voldoen aan overheidsstandaarden structureel onderdeel kan worden van AI-ondersteunde softwareontwikkeling; en 2) door een systeem te introduceren voor het automatisch bijhouden van software bij wijzigingen in standaarden. We introduceren in dit project een AI readiness assessment kader en maken voor een aantal pilotstandaarden verschillende AI-hulpmiddelen. We toetsen in hoeverre dit AI-modellen helpt om standaarden correct te gebruiken. Ook bouwen we het CompliancePush systeem voor de proactieve doorvoering in software van wijzigingen in standaarden. 
+
+In deze repository vind je: 
+- Het [rapport met onze bevindingen](https://geonovum-labs.github.io/arco) (werkversie)
+- Projectbord met issues
+- (in de toekomst verwijzingen naar andere repositories waarin aan specifieke deliverables uit dit project gewerkt wordt)
+
 ## ReSpec template instructies
 
 ReSpec is een tool om HTML- en PDF-documenten te genereren op basis van markdowncontent. Deze template helpt je bij het opstellen en publiceren van documenten volgens de Geonovum-standaard.
