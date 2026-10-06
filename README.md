@@ -6,6 +6,8 @@ In deze repository vind je:
 - Projectbord met issues
 - (in de toekomst verwijzingen naar andere repositories waarin aan specifieke deliverables uit dit project gewerkt wordt)
 
+Geïnteresseerd? Er is een werkgroep in oprichting, bedoeld voor beheerders van standaarden en ontwikkelaars van software die standaarden implementeert. Ook organiseren we open sprint reviews waar je je bij kunt aansluiten. Neem contact op met Linda van den Brink (Geonovum) voor meer informatie.  
+
 ## ReSpec template instructies
 
 ReSpec is een tool om HTML- en PDF-documenten te genereren op basis van markdowncontent. Deze template helpt je bij het opstellen en publiceren van documenten volgens de Geonovum-standaard.
