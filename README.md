@@ -11,7 +11,7 @@ We introduceren een AI readiness assessment kader en maken voor een aantal pilot
 
 - Het [rapport met onze bevindingen](https://geonovum-labs.github.io/airco) (werkversie)
 - Presentaties in de map [`slides/`](slides/)
-- Het projectbord met issues
+- Het [projectbord met issues](https://github.com/orgs/Geonovum-labs/projects/3)
 - In de toekomst: verwijzingen naar andere repositories waarin aan specifieke deliverables uit dit project gewerkt wordt
 
 ## Meedoen
