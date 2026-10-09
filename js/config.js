@@ -34,7 +34,7 @@ let respecConfig = {
 
   //-- TODO shortName is verplicht! (komt in de URL: kies logische afkorting)
   //-- Regel: shortName mag geen hoofdletters bevatten.
-  shortName: "arco-rapport",
+  shortName: "airco-rapport",
   
   //edDraftURI = De URI van de draft version. Deze wordt automatisch afgeleid van de github URI; maar kan hier overschreven worden. 
 	//edDraftURI: ["https://geonovum.github.io", "/", "shortName"],
@@ -78,7 +78,7 @@ let respecConfig = {
   // TODO: Vul de github URL in.
   // neem hier de URL van de github repository op waar het respec document in staat
   // dit zorgt voor het 'Doe mee:' onderdeel in het voorblad van de publicatie.
-  github: "https://github.com/Geonovum-labs/arco",
+  github: "https://github.com/Geonovum-labs/airco",
 
   postProcess: [
     ...(organisationConfig.postProcess ?? []),
