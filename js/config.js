@@ -5,7 +5,7 @@ let respecConfig = {
   // TODO: title is verplicht! Neem hieronder de titel van het document op
   title: "Rapport AI Ready Standaarden & CompliancePush",
   //-- specStatus is verplicht! (activeer 1 van de volgende)
-  specStatus: "wv",                 // Werkversie
+  specStatus: "wv", // Werkversie
   //specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
@@ -19,7 +19,7 @@ let respecConfig = {
   //specType: "HR",                   // HandReiking
   //specType: "WA",                 // Werkafspraak
   //specType: "BD",                 // Beheer Documentatie
-  specType: "AL",                 // Algemeen document
+  specType: "AL", // Algemeen document
   //specType: "BP",                 // Best Practice
 
   //-- pubDomain is verplicht! (komt in de URL)
@@ -30,50 +30,54 @@ let respecConfig = {
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
   //license: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
   //license: "cc0",                 // Public Domain Dedication
-  license: "cc-by",                 // Attribution, met bronvermelding
+  license: "cc-by", // Attribution, met bronvermelding
 
   //-- TODO shortName is verplicht! (komt in de URL: kies logische afkorting)
   //-- Regel: shortName mag geen hoofdletters bevatten.
   shortName: "airco-rapport",
-  
-  //edDraftURI = De URI van de draft version. Deze wordt automatisch afgeleid van de github URI; maar kan hier overschreven worden. 
-	//edDraftURI: ["https://geonovum.github.io", "/", "shortName"],
+
+  //edDraftURI = De URI van de draft version. Deze wordt automatisch afgeleid van de github URI; maar kan hier overschreven worden.
+  //edDraftURI: ["https://geonovum.github.io", "/", "shortName"],
 
   //-- publishDate is verplicht. Als je werkversie gekozen hebt  dan pakt Respec
   //-- de pushdate maar de publishDate is nog steeds verplicht.
   publishDate: "2026-02-09",
-  
+
   //-- publishVersion is verplicht. Hij mag wel leeg zijn [], maar niet de lege string zijn "".
   publishVersion: [],
- 
-  //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beide aan/uit! 
+
+  //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beide aan/uit!
   //previousPublishDate: "2014-05-01",
   //previousMaturity: "CV",
 
   //-- Deze gebruiken we niet binnen Geonovum
   //prevVersion: "0.0.1",
 
-  //-- TODO: de namen van de Editor(s) / Redacteur(en)
-  //-- vul in: per Editor: name:, company:, companyURL:
-  editors:
-    [
-      {
-        name: "voornaam achternaam",
-        company: "Geonovum",
-        companyURL: "https://www.geonovum.nl",
-      }
-    ],
+  editors: [
+    {
+      name: "Linda van den Brink",
+      company: "Geonovum",
+      companyURL: "https://www.geonovum.nl",
+    },
+    {
+      name: "Joost Farla",
+      company: "ModelDesk",
+      companyURL: "https://modeldesk.io",
+    },
+  ],
 
-  //-- de namen van de auteur(s) 
-  //-- vul in: per auteur: name:, company:, companyURL: 
-  authors:
-    [
-      {
-        name: "voornaam achternaam",
-        company: "Geonovum",
-        companyURL: "https://www.geonovum.nl",
-      }
-    ],
+  authors: [
+    {
+      name: "Linda van den Brink",
+      company: "Geonovum",
+      companyURL: "https://www.geonovum.nl",
+    },
+    {
+      name: "Joost Farla",
+      company: "ModelDesk",
+      companyURL: "https://modeldesk.io",
+    },
+  ],
 
   // TODO: Vul de github URL in.
   // neem hier de URL van de github repository op waar het respec document in staat
@@ -82,7 +86,7 @@ let respecConfig = {
 
   postProcess: [
     ...(organisationConfig.postProcess ?? []),
-    localizeGitHubHeaderLinks
+    localizeGitHubHeaderLinks,
   ],
 
   // Create PDF and link to file in header (optional):
@@ -101,17 +105,16 @@ let respecConfig = {
   // - Voeg dan pas hieronder toe.
   // - Zie handleiding: https://geonovum.github.io/handleiding-tooling/ReSpec/ReSpec-onderdelen/#bibliografie
   //
-  localBiblio: 
-  {
+  localBiblio: {
     MIM12: {
       id: "MIM12",
       title: "MIM - Metamodel Informatie Modellering (Versie 1.2)",
       href: "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/",
       status: "Definitief",
       publisher: "Geonovum",
-      date: "2024-06-13"
-    }
-  }
+      date: "2024-06-13",
+    },
+  },
 };
 
 function localizeGitHubHeaderLinks(_config, document) {
@@ -120,7 +123,7 @@ function localizeGitHubHeaderLinks(_config, document) {
   }
 
   const issueLink = document.querySelector(
-    '.head dl a[href$="/issues/"], .head dl a[href$="/issues"]'
+    '.head dl a[href$="/issues/"], .head dl a[href$="/issues"]',
   );
   if (issueLink) {
     issueLink.textContent = "Alle issues";

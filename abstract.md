@@ -1,1 +1,3 @@
-TODO: vul in abstract.md een abstract in.
+Dit rapport beschrijft het project AI Ready Standaarden & CompliancePush, gefinancierd uit het Innovatiebudget 2026 en uitgevoerd door Geonovum, Kadaster, ModelDesk en het ministerie van BZK (Directie Digitale Overheid), met het team van developer.overheid.nl. Het project maakt overheidsstandaarden geschikt voor gebruik door AI-agents en bouwt een systeem dat software proactief bijwerkt wanneer standaarden wijzigen.
+
+Deze werkversie bevat de inleiding en de aanpak en planning van het project. Latere versies vullen het rapport aan met het AI Readiness Assessment-kader, de meetaanpak, de artefacten per pilotstandaard, de resultaten van CompliancePush en de eindvalidatie. Het rapport groeit per fase mee met het project en wordt na elke fasedemo bijgewerkt.
