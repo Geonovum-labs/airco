@@ -97,3 +97,22 @@ Gevolg van U1: platformspecifieke aanwijzingen (zoals de description en leesrege
 
 - Wie zijn de twee reviewers uit de MIM-community? Moet rond zijn vóór stap 9.
 - Op welke commit van MIM-Werkomgeving wordt gewerkt? De lokale clone staat op master `3990766`; in stap 2 toetsen aan de vastgestelde versie.
+
+## 10. Actielijst
+
+| # | Taak |
+|---|--------------|
+| 1 | Uitgangspunten vastleggen |
+| 2 | Bronmateriaal veiligstellen |
+| 3 | Evaluatievragen en nulmeting |
+| 4 | Structuur en sjablonen bepalen |
+| 5a | Modelelementen schrijven |
+| 5b | Metagegevensmatrix opstellen |
+| 5c | Onderscheidingen schrijven |
+| 5d | Onderwerpen schrijven |
+| 5e | Uitdrukkingen, versieoverzicht en woordenlijst |
+| 6 | Inconsistenties inventariseren |
+| 7 | SKILL.md schrijven |
+| 8 | Testen en bijsturen |
+| 9 | Inhoudenlijke review | 
+| 10 | verpakken en beheer inrichten | 
