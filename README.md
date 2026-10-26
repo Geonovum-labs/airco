@@ -12,8 +12,12 @@ We introduceren een AI readiness assessment kader en maken voor een aantal pilot
 - Het [rapport met onze bevindingen](https://geonovum-labs.github.io/airco) (werkversie)
 - Presentaties in de map [`slides/`](slides/)
 - Het [projectbord met issues](https://github.com/orgs/Geonovum-labs/projects/3)
-- In de toekomst: verwijzingen naar andere repositories waarin aan specifieke deliverables uit dit project gewerkt wordt
 
+## Gerelateerde repositories
+Andere repositories waarin aan specifieke deliverables uit dit project gewerkt wordt:
+- [AI harness tooling](https://geonovum-labs.github.io/airco-harness/)
+- Meer volgt...
+ 
 ## Meedoen
 
 Er is een werkgroep in oprichting voor beheerders van standaarden en ontwikkelaars van software die standaarden implementeert. Ook organiseren we open sprint reviews waar je je bij kunt aansluiten. Neem contact op met Linda van den Brink (Geonovum) voor meer informatie.
