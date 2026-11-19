@@ -16,7 +16,7 @@ We introduceren een AI readiness assessment kader en maken voor een aantal pilot
 ## Gerelateerde repositories
 Andere repositories waarin aan specifieke deliverables uit dit project gewerkt wordt:
 - [AI harness tooling](https://geonovum-labs.github.io/airco-harness/)
-- Meer volgt...
+- [MIM skill](https://github.com/Geonovum-labs/skills-mim/)
  
 ## Meedoen
 
